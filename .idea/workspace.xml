@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25652dad-755a-42c1-b5cc-4c245c8509c1" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2MMEMcpZrvPF2b9LMRs4xPeHih5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cdRule\src\components" />
+      <recent name="D:\cdRule\src\modules\cdRule" />
+      <recent name="D:\cdRule\src\common" />
+      <recent name="D:\cdRule\src\common\cache" />
+      <recent name="D:\cdRule\src\common\tree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.serve" />
+      <item itemvalue="npm.build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="25652dad-755a-42c1-b5cc-4c245c8509c1" name="默认变更列表" comment="" />
+      <created>1677569003966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677569003966</updated>
+      <workItem from="1677569007739" duration="4594000" />
+      <workItem from="1677573666527" duration="12978000" />
+      <workItem from="1677642089728" duration="17465000" />
+      <workItem from="1678095485808" duration="4526000" />
+      <workItem from="1678760150091" duration="7414000" />
+      <workItem from="1678853029736" duration="2251000" />
+      <workItem from="1678927657338" duration="8712000" />
+      <workItem from="1679015967848" duration="16357000" />
+      <workItem from="1681096877746" duration="7406000" />
+      <workItem from="1681112766858" duration="14245000" />
+      <workItem from="1681262817687" duration="9547000" />
+      <workItem from="1681434620126" duration="1957000" />
+      <workItem from="1681712269742" duration="3058000" />
+      <workItem from="1681776788664" duration="40000" />
+      <workItem from="1684485745217" duration="739000" />
+      <workItem from="1684719417561" duration="215000" />
+      <workItem from="1684977861316" duration="2099000" />
+      <workItem from="1685062426848" duration="9898000" />
+      <workItem from="1685150673577" duration="1611000" />
+      <workItem from="1685171608305" duration="651000" />
+      <workItem from="1685499683337" duration="3671000" />
+      <workItem from="1685932582443" duration="810000" />
+      <workItem from="1686040058087" duration="157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Table/table/vxe-table/index.d.ts" />
+      </list>
+    </option>
+  </component>
+</project>
