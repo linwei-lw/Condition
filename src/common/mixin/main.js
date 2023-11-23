@@ -32,13 +32,8 @@ window.$_main = {
     window.$_main.oldSessionId = params.sessionId;
     window.$_main.root && (window.$_main.sessionId = params.sessionId || window.$_main.sessionId);
     params.sessionId && (window.$_main.sessionId = params.sessionId || window.$_main.sessionId);
-    // let token;
-    // if (location.host == 'localhost:8081'||location.host == '192.168.2.25:8081') {
     //   $_main.mdPassword=crypto.createHash('md5').update('passwordszsg').digest('hex')
-    //   window.$_main.sessionId= 'So3Fc3C34Zb4Ws4T14Qf2Nz3Kg4H24Ef4Bg4Yu3V82Ss3Pw3Mz3Jp3G32Dn3Ae2Xc2Uq2Rt3Oa3Li3Iu3Fs2Ce3Zs1Wc3Tp3Qj3Nm3Kc3H83E53Bo3Yt3Vm3S23Pg1M03Js1Gs1Dn1A03Xr1U03Rp1Om1Lh1Is2Fg1Cs2y';
-    // }else{
-    //   token = window.$_main.sessionId
-    // }
+    //   window.$_main.sessionId= 'cXyBr5ZeStOdndJ97Mi4qw';
     window.$_main.http.authorization(params.sessionId);
   },
 
@@ -113,21 +108,21 @@ window.$_main.http = {
     headers.Authorization = token;
   },
 
-  get: (url, params, quiet=false) => {
+  get: (url, params, quiet=false,header=headers) => {
     // console.log(`${window.$_main.domain.WEB_PATH}${url}`);
     if (isTimeout) return;
     url += (url.indexOf('?') > 0 ? '&' : '?') + (params ? (qs.stringify(params) + '&') : '') + new Date().getTime();
     if(url.indexOf('http://')==-1){
       url= `${window.$_main.domain.WEB_NewROOT}${url}`
-      console.log(url)
     }
     return axios({
       withCredentials: true,
-      headers: headers,
+      headers: header,
       method: 'get',
       url: url
     })
     .then(r => r.data)
+    // .then(r => r.data)
     .then(r => {
       if (r.status == 1) {
         return r.result;
@@ -141,12 +136,12 @@ window.$_main.http = {
     });
   },
 
-  post: (url, params, quiet=false) => {
+  post: (url, params, quiet=false,header=headers) => {
     if (isTimeout) return;
     url += (url.indexOf('?') > 0 ? '&' : '?') + new Date().getTime();
     return axios({
       withCredentials: true,
-      headers: headers,
+      headers: header,
       method: 'post',
       url: `${window.$_main.domain.WEB_NewROOT}${url}`,
       data: params
