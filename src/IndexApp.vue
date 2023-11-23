@@ -25,10 +25,18 @@
       if (location.host == 'localhost:8081'||location.host == '192.168.2.25:8081') {// 本地测试
         let hash=location.hash.replace('#/','')
         // 演示
-        gps_web_url = 'http://47.92.193.174/:8085';
-        gps_xhyc_url = `http://47.92.193.174/:8085?userId=admin&page=${hash}`;
+        gps_web_url = 'http://119.3.218.13:8085';
+        gps_xhyc_url = `http://119.3.218.13:8085?userId=admin&page=${hash}`;
       }
       window.$_main.init(gps_web_url, gps_xhyc_url);
+      window.addEventListener('message', e => {
+        if (e.data.cmd ==  'theme_get'||e.data.cmd ==  'theme_change') {
+          window.$_theme.change(e.data.theme)
+        }
+      });
+      window.parent.postMessage({cmd:'theme_get'}, '*');
+      window.parent.postMessage({cmd:'theme_change'}, '*');
+      window.parent.postMessage({cmd:'lang_get'}, '*');
     },
     beforeDestroy() {
       window.$_main.exit();

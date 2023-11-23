@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25652dad-755a-42c1-b5cc-4c245c8509c1" name="默认变更列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -15,37 +21,49 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MMEMcpZrvPF2b9LMRs4xPeHih5" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/工作/Condition",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "F:\\软件\\IDEA\\IntelliJ IDEA 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\cdRule\src\components" />
+      <recent name="E:\工作\cdRule - 副本\src\modules\People" />
+      <recent name="D:\cdRule - 副本\src\common\mixin" />
       <recent name="D:\cdRule\src\modules\cdRule" />
+      <recent name="D:\cdRule\src\components" />
       <recent name="D:\cdRule\src\common" />
-      <recent name="D:\cdRule\src\common\cache" />
-      <recent name="D:\cdRule\src\common\tree" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.serve">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,6 +120,29 @@
       <workItem from="1685499683337" duration="3671000" />
       <workItem from="1685932582443" duration="810000" />
       <workItem from="1686040058087" duration="157000" />
+      <workItem from="1687936647591" duration="3206000" />
+      <workItem from="1688202316086" duration="7549000" />
+      <workItem from="1688542493237" duration="1708000" />
+      <workItem from="1688605908735" duration="53000" />
+      <workItem from="1688605973332" duration="1182000" />
+      <workItem from="1688607499277" duration="2982000" />
+      <workItem from="1688779235617" duration="10058000" />
+      <workItem from="1688949946849" duration="842000" />
+      <workItem from="1688954589454" duration="988000" />
+      <workItem from="1688955614862" duration="247000" />
+      <workItem from="1688969692230" duration="615000" />
+      <workItem from="1688982236346" duration="459000" />
+      <workItem from="1688982710001" duration="86000" />
+      <workItem from="1688982806186" duration="617000" />
+      <workItem from="1689036961000" duration="120000" />
+      <workItem from="1689220177041" duration="8080000" />
+      <workItem from="1689845769813" duration="2416000" />
+      <workItem from="1690183656774" duration="580000" />
+      <workItem from="1693383351879" duration="1417000" />
+      <workItem from="1700442830372" duration="17000" />
+      <workItem from="1700703114953" duration="25000" />
+      <workItem from="1700703147901" duration="93000" />
+      <workItem from="1700703523931" duration="818000" />
     </task>
     <servers />
   </component>
@@ -111,6 +152,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/Table/table/vxe-table/index.d.ts" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </project>

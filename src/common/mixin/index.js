@@ -5,8 +5,8 @@
 import './main.js';
 import './domain.js';
 import './http.js';
-import './theme.js';
 import './L.js';
+import './theme.js';
 // import './cache.js';
 
 
@@ -20,6 +20,6 @@ export default {
     $_L: () => window.$_L,
     $_domain:()=>window.$_domain,
     $_http:()=>window.$_http,
-    $_cache: () => window.$_cache,
+    // $_cache: () => window.$_cache,
   }
 };
